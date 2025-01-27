@@ -3,31 +3,31 @@ package observateur;
 import td7.Classe;
 
 /**
- * Classe Abandon
- * Représente un voilier abandonné avec des informations sur le nom, la classe et le skipper.
+ * Class Abandon
+ * Represents an abandoned sailboat with information about the name, class, and skipper.
  */
 public class Abandon {
     /**
-     * Le nom du voilier.
+     * The name of the sailboat.
      */
     public String nomVoilier;
 
     /**
-     * La classe du voilier.
+     * The class of the sailboat.
      */
     public Classe classeVoilier;
 
     /**
-     * Le skipper du voilier.
+     * The skipper of the sailboat.
      */
     public String skipper;
 
     /**
-     * Constructeur de la classe Abandon.
+     * Constructor for the Abandon class.
      *
-     * @param nomVoilier   Le nom du voilier.
-     * @param classeVoilier La classe du voilier.
-     * @param skipper      Le skipper du voilier.
+     * @param nomVoilier   The name of the sailboat.
+     * @param classeVoilier The class of the sailboat.
+     * @param skipper      The skipper of the sailboat.
      */
     public Abandon(String nomVoilier, Classe classeVoilier, String skipper) {
         this.nomVoilier = nomVoilier;
@@ -36,18 +36,18 @@ public class Abandon {
     }
 
     /**
-     * Retourne une représentation sous forme de chaîne de caractères de l'objet Abandon.
+     * Returns a string representation of the Abandon object.
      *
-     * @return Une chaîne de caractères décrivant l'objet Abandon.
+     * @return A string describing the Abandon object.
      */
     public String toString() {
-        return "Le nom du voilier est : " + nomVoilier + " ,la classe du voilier est : " + classeVoilier + " ,le skipper du voilier est : " + skipper;
+        return "The name of the sailboat is: " + nomVoilier + " ,the class of the sailboat is: " + classeVoilier + " ,the skipper of the sailboat is: " + skipper;
     }
 
     /**
-     * Retourne la classe du voilier.
+     * Returns the class of the sailboat.
      *
-     * @return La classe du voilier.
+     * @return The class of the sailboat.
      */
     public Classe getClasseVoilier() {
         return classeVoilier;
